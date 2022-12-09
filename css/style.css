@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+#header{
+    padding: 20px 4rem; 
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.498);
+}
+#header .left{
+    width: 20%;
+    float: left;
+}
+#header .right{
+    width: 80%;
+    float: right;
+    text-align: right;
+    margin-top: 12px;
+    
+}
+#header .right a{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+#header .right a:hover{
+    color: #ffc800;
+    transition: 0.5s;
+}
+#meet{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 15rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#meet a{
+    color: aliceblue;
+    padding: 20px 40px;
+    border: 1px solid #ffc800;
+    background-color: #ffc800;
+    border-radius: 6px;
+    transition: .3s;
+}
+#meet h1{
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+#meet h2{
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+#meet a:hover{
+    background-color: #b08a00;
+    
+}
+#services{
+    padding: 5rem 4rem;
+    text-align: center;
+    overflow: auto;
+}
+#services,#portfolio h3{
+    text-align: center;
+    font-size: 54px;
+}
+#servicesbox h3{
+    font-size: 44px;
+    color: #212529;
+}
+#services,#portfolio p{
+    color: #6c757d;
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#services-box .box{
+    width:calc(100%/3); 
+    float: left;
+    padding: 0 10px;
+    
+}
+#services-box .box h3{
+    font-size: 24px;
+    color: #212529;
+    margin: 6px 0;
+}
+#services-box .box h3{
+    font-size: 16px;
+    color: #6c757d;
+}
+#services-box svg{
+    height: 78px;
+    color: aliceblue;
+    background-color: #ffc800;
+    padding: 20px;
+    border-radius: 50%;
+}
+#portfolio{
+    background-color: #f3f1f1;
+    padding: 4rem;
+    overflow: auto;
+}
+#portfolio-box{
+    margin-top: 40px;
+}
+#portfolio-box .box {
+    width: 30%;
+    margin: 0 10px;
+    float: left;
+}
+#portfolio-box .box img{
+    width: 100%;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+#portfolio-box .box img:hover{
+    filter: grayscale(0);
+}
+#portfolio-box .box .bottombox {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
